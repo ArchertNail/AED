@@ -1,0 +1,6 @@
+INSERT INTO `avion` (`matricula`, `Compania`) VALUES ('A001', 'AiraLine'), ('A002', 'FireAvion'), ('A003', 'Reyanel');
+INSERT INTO `datosavion` (`HorasVueloAvion`, `Matricula`) VALUES ('5', 'A001'), ('3', 'A002'), ('6', 'A003');
+INSERT INTO `hangares` (`codHangar`, `ubicacion`) VALUES (NULL, 'Alemania'), (NULL, 'Belgica'), (NULL, 'Londres');
+INSERT INTO `parte` (`fecha`, `Hangar`, `Avion`) VALUES ('2016-12-14', '1', 'A001'), ('2016-12-30', '2', 'A002'), ('2015-08-11', '3', 'A003');
+
+
